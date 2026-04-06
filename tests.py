@@ -141,3 +141,4 @@ class TestBooksCollector:
         collector.add_book_in_favorites('Властелин колец')
 
         assert collector.get_list_of_favorites_books() == ['Гарри Поттер', 'Властелин колец']
+        
