@@ -1,1 +1,29 @@
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+venv_mac/
+
+# Allure — результаты и отчёты генерируются при запуске
+allure-results/
+allure_results/
+allure-report/
+.allure/
+
+# Покрытие кода
+.coverage
+htmlcov/
+coverage.xml
+
+# Редакторы и ОС
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
